@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+#content-deslizador { 
+fuente - familia : Arial ; 
+ancho : 640px ; 
+margen : 0 auto ; 
+margen - top : 100px ; }    
+
+
+#content { 
+desbordamiento : oculto ; 
+ancho : 640px ; 
+altura : 480px ; - webkit - cuadro - sombra : 0px 0px 50px 10px # c9c9c9; - MOZ - cuadro - sombra : 0px 0px 50px 10px # c9c9c9; 
+cuadro - sombra : 0px 0px 50px 10px # c9c9c9; }  
+     
+
+#contenido interior { 
+anchura : 10000px ; 
+altura : 480px ; } 
+
+
+.Página { 
+ancho : 640px ; 
+altura : 480px ; float : a la izquierda ; }  
+
+.Página-info { 
+altura : 90px ; 
+fondo - de color : RGBA ( 99 , 99 , 99 , 0,6 ); 
+posición : relativa ; 
+margen - top : 0px ; 
+abajo : 103px ; 
+de color : #dedede; 
+padding - izquierda : 20px ; 
+padding - top : 10px ; }         
+
+
+.Página-información h2 { 
+fuente - tamaño : 21px ; 
+margen - inferior : 10px ; 
+margen - top : 0px ; 
+de color : #fafafa; }    
+
+
+.Página-texto { 
+fuente - tamaño : 15px ; } 
+
+.Botón { float : a la izquierda ; 
+fondo : #bababa; 
+anchura : 16px ; 
+altura : 16px ; - webkit - frontera - radio : 8 píxeles ; - MOZ - frontera - radio : 8 píxeles ; 
+fronteriza - radio : 8 píxeles ; 
+margen - izquierda : 5px ; 
+margen - derecha : 5px ; }
+   
+ 
+    
+
+
+.Botón : libración { - webkit - cuadro - sombra : inserción 0px 0px 2px 2px # d4d4d4; - MOZ - cuadro - sombra : inserción 0px 0px 2px 2px # d4d4d4; 
+cuadro - sombra : inserción 0px 0px 2px 2px # d4d4d4; }
+    
+        
+
+
+.Botón : activa { - webkit - cuadro - sombra : inserción 0px 0px 2px 2px # 7a7a7a; - MOZ - cuadro - sombra : inserción 0px 0px 2px 2px # 7a7a7a; 
+cuadro - sombra : inserción 0px 0px 2px 2px # 7a7a7a; }
+    
+        
+
+
+.Botón de un { 
+display : bloque ; 
+anchura : 16px ; 
+altura : 16px ; }  
+#example { 
+visibilidad : oculto ; }
+
+
+#example: destino { 
+visibilidad : visible ; }
+# content-interior-1: diana contenido interior {# - webkit - transición : todos los 400 ms facilidad ; - MOZ - transición : todos los 400 ms facilidad ; - O - transición : todos los 400 ms facilidad ; 
+transición : todos los 400 ms facilidad ; 
+margen - izquierda : 0px ; }
+
+
+ 
+
+
+#content-interior-2: diana contenido interior {# - webkit - transición : todos los 400 ms facilidad ; - MOZ - transición : todos los 400 ms facilidad ; - O - transición : todos los 400 ms facilidad ; 
+transición : todos los 400 ms facilidad ; 
+margen - izquierda : - 640px ; }
+
+
+ 
+
+
+#content-interior-3: diana contenido interior {# - webkit - transición : todos los 400 ms facilidad ; - MOZ - transición : todos los 400 ms facilidad ; - O - transición : todos los 400 ms facilidad ; 
+transición : todos los 400 ms facilidad ; 
+margen - izquierda : - 1280px ; }
+
+
+ 
+
+
+#content-interior-4: diana contenido interior {# - webkit - transición : todos los 400 ms facilidad ; - MOZ - transición : todos los 400 ms facilidad ; - O - transición : todos los 400 ms facilidad ; 
+transición : todos los 400 ms facilidad ; 
+margen - izquierda : - 1920px ; }
+
+
+ 
+
+
+#content-interior-5: diana contenido interior {# - webkit - transición : todos los 400 ms facilidad ; - MOZ - transición : todos los 400 ms facilidad ; - O - transición : todos los 400 ms facilidad ; 
+transición : todos los 400 ms facilidad ; 
+margen - izquierda : - 2560px ; }
+
+
+ 
+
+
+#content-interior-6: diana contenido interior {# - webkit - transición : todos los 400 ms facilidad ; - MOZ - transición : todos los 400 ms facilidad ; - O - transición : todos los 400 ms facilidad ; 
+transición : todos los 400 ms facilidad ; 
+margen - izquierda : - 3200px ; }

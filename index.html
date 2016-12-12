@@ -1,0 +1,461 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portal del sector Aeronáutico</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/craftyslide.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.js"></script>
+		<script>
+	
+        window.onload = function(){
+			var contador = 0;
+			
+			document.getElementById("pinchame").onclick = function(){
+			
+			$("h1").slideToggle();
+			
+			if(contador % 2 == 0) {
+			
+            /* $("recoger").click(function(){ */
+              
+				$("recoger").css("top","0");
+          	}
+		
+			else {
+			  
+				$("recoger").css("top","32em");
+			}
+			contador++;
+        }
+
+
+		};
+
+		document.getElementById("cerrar").onclick = function(){
+			
+			$("menu").slideToggle();
+			
+		};
+		
+		$(document).ready(function() {
+			$('#myCarousel').carousel({
+			interval: 10000
+			})
+			
+			$('#myCarousel').on('slid.bs.carousel', function() {
+				//alert("slid");
+			});
+			
+			
+		});
+
+        </script>
+	</head>
+	<body class="landing" >
+    	 <video controls autoplay class="video" preload="auto" loop>
+			<source src="video/Cessna_M2.webm" type="video/webm">
+			<source src="video/Cessna_M2.mp4" type="video/mp4">
+			<source src="video/Cessna_M2.ogv" type="video/ogg">
+		</video>
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+
+					 <div class="recoger">
+					 
+                    	
+					   <h1 style="z-index:0">
+                        
+					 	<div class="col-md-3">
+						
+                        <a href="https://www.facebook.com/abcaeronautico/?fref=ts"><img src="images/LATERAL/facebook-logo.png"></a>
+                        
+                        
+                        <a href="https://twitter.com/AbcAeronautico"><img src="images/LATERAL/twitter-logo-silhouette.png"></a>
+                        
+						
+                        <a href="https://www.instagram.com/abcaeronautico/"><img src="images/LATERAL/instagram.png"></a> 
+                        
+                        <a href="https://www.youtube.com/channel/UCtQsCA7Cz00IwjAN4sHmkHw"><img src="images/LATERAL/youtube.png"></a>
+                        
+                        </div>    
+
+                        <a href="index.html"><img src="images/web-2017_02.jpg"></a>
+                        
+                        <!--Galeria de Imagenes -->
+                        <div id="slideshow">
+                           <ul style="height: 155px !important;">
+                              <li>
+                              <img src="http://farm6.static.flickr.com/5270/5627221570_afdd85f16a_z.jpg" alt="" title="Light Trails" />
+                              </li>
+                                  
+                              <li>
+                              <img src="http://farm6.static.flickr.com/5146/5627204218_b83b2d25d6_z.jpg" alt="" title="Bokeh" />
+                              </li>
+                                  
+                              <li>           
+                              <img src="http://farm6.static.flickr.com/5181/5626622843_783739c864_z.jpg"  alt="" title="Blossoms" />
+                              </li>
+                                   
+                              <li>           
+                              <img src="http://farm6.static.flickr.com/5183/5627213996_915aa49939_z.jpg"  alt="" title="Funky Painting" />
+                              </li>
+                                  
+                              <li>           
+                              <img src="http://farm6.static.flickr.com/5182/5626649425_fde8610329_z.jpg" alt="" title="Vintage Chandelier" />
+                              </li>	                         
+                          </ul>
+                        </div>   
+                              
+                 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+                 <script src="assets/js/craftyslide.min.js"></script>
+                              
+                 <script>
+                     $("#slideshow").craftyslide();
+                 </script> 
+                                               
+                        
+                        <!--Fin de la galería de Imagenes -->
+                        
+                        <!-- Clave Integral banner -->
+                        <imagenes>
+                        <div class="recoger">
+                        
+                        	<a href="http://abcaeronautico.com/secciones/biblioteca.html">
+                            <img src="images/output_FiRnfa.gif" alt="" title="Clave Integral" style="width:100%;"/>
+                            </a>
+                            <a href="http://abcaeronautico.com/secciones/biblioteca.html">
+                            <img src="images/tiquete.png" alt="" title="Tiquete" style="width:100%;"/>
+                            </a>
+
+                           <form action="#" method="post" name="buscador">
+                           <label>BUSCADOR</label><input type="text"  placeholder="Buscador" required />
+                           <button class="submit" type="submit" style="padding: 0 2.75em; font-size:16px; margin-left:25%; margin-top:0.2em;">Enviar</button>                          
+                           </form>
+                           </div>
+
+                           
+                           </h1>
+                           <recoger id="pinchame" style="z-index:1">
+							
+                            <img src="images/web-2017_02.png" alt="" title="Tiquete" style="width:100%;"/>
+                     
+                           </recoger>
+                          
+                        <!-- -->
+ 						                        
+						</div>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+                                        <div class="evento">
+										<li>
+                                        <div class="evento4">
+                                        <a href="noticias.html"><img src="images/menu/MENU_02.png" name="noticias"></a>
+                                        </div>
+                                        <div class="evento6">
+                                        <a href="directorio.html"><img src="images/menu/MENU_04.png" name="directorio"></a>
+                                        </div>
+                                        <div class="evento7">
+                                        <a href="fichas_tecnicas.html"><img src="images/menu/MENU_03.png" name="fichas"></a>
+                                        </div>
+                                        <div class="evento8">
+                                        <a href="#"><img src="images/menu/MENU_09.png" name="oferta laboral"></a>
+                                        </div>
+                                        <div class="evento2">
+                                        <a href="#"><img src="images/menu/MENU_05.png" name="radio"></a>
+                                        </div>
+                                        <a href="eventos.html"><img src="images/menu/MENU_06.png" name="eventos"></a>
+                                        <div class="evento5">
+                                        <a href="galeria.html"><img src="images/menu/MENU_01.png" name="galeria"></a>
+                                        </div>
+                                         <div class="evento9">
+                                        <a href="https://www.gulfcoastavionics.com/"><img src="images/menu/banner.gif"></a>
+                                        </div>
+                                        
+                                     
+                                        </li>
+                                        </div>
+                                
+                                         <div class="evento3">
+                                           <li>
+                                           		<div class="evento31">
+                                                 <a href="#"><img src="images/menu/MENU_07.png"></a>
+                                                 </div>
+                                                 <div class="evento32">
+                                                 <a href="#"><img src="images/menu/MENU_08.png"></a>
+                                                 </div>
+                                           </li>
+                                		 </div>
+										                                          
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+               
+						
+						<a href="#one" class="more scrolly"></a>
+                
+					</section>
+
+				<!-- One -->
+                
+                 
+					<section id="one">                        
+
+                   		<section class="spotlight">
+						
+                          <div class="image">
+                          	<a href="http://abcaeronautico.com/secciones/biblioteca.html">
+                            <img src="images/output_FiRnfa.gif" alt="" title="Clave Integral"/>
+                            </a>
+                          </div>
+
+                           <div class="image">
+
+                         	<a href="http://www.abcaeronautico.com/">
+                            <img src="images/banner-publicidad-abc-aeronautico.gif" alt="" title="Abc Aeronáutico"/>
+                            </a>
+                           </div>
+                          
+                        </section>
+                          
+                    </section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+
+							<div class="image"><img src="images/pic_1.jpg" alt="" style="background-color:#d3d3d3;"/></div>
+
+                            <div class="content">
+                            
+								<h2>Dos personas fallecidas en accidente aéreo en zona rural de Frontino, Antioquia</h2>
+								<p>La Aeronáutica Civil confirma que la aeronave no tenía plan de vuelo autorizado.</p>
+								<a href="http://abcaeronautico.com/noticias/colombia/2094-dos-personas-fallecidas-en-accidente-a%C3%A9reo-en-zona-rural-de-frontino,-antioquia.html"><p>Lea la noticia aquí >>> </p></a>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="content">
+								<h2>SPOTTERS<br />
+								MUESTRA TUS FOTOS EN LA GALERÍA</h2>
+								<p>Inscribete grátis, arma tu perfil y dale reconocimiento a tu trabajo como spotters</p>
+							</div>
+							<div class="image"><img src="images/pic_2.jpg" alt="" /></div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="style3 special h2">
+						<div class="inner">
+							<header class="major">
+								
+							<div>
+								<article class="col-md-2 cuadritos inline-block espacio_izquierda"> 
+									<div class="section_pequeno">
+
+									</div> 
+								</article>
+
+								<article class="col-md-4 cuadritos inline-block espacio_izquierda">
+									
+									<div class="section_medio">
+
+									</div>
+
+								</article>
+								<article class="col-md-2 cuadritos inline-block espacio_izquierda">
+									<form class="espacio_arriba">
+										<input type="text"  placeholder="Ingresa tu correo ->" required />
+									</form>
+								</article>
+
+							</div>
+															
+							</header>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+					    </div>
+					</section>
+
+					<section id="qto">
+					
+					 <div class="imagenpublicidad">
+					 	<img src="images/pic_4.jpg">
+					 </div>
+
+					</section>
+
+				<!--Eventos -->
+
+				<section id="quinta" class="wrapper style5">
+
+				<div class="container">
+				<div class="col-md-4">
+                EVENTOS DEL MES 
+                </div>
+                
+                <div class="col-md-6 rojo">       Conozca todos los eventos aquí &gt;&gt;&gt;</div>
+                <p>&nbsp;</p>
+                </div>
+				<div class="container">
+                      <p>&nbsp;</p>
+                      <div class="col-md-12">
+                        <h1>Bootstrap 3 Thumbnail Slider</h1>
+                
+                        <div class="well">
+                            <div id="myCarousel" class="carousel slide">
+                                
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                              <a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                            
+                                              Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre.
+                                            
+                                            </div>
+                                            <div class="col-sm-3">
+                                             <a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                              <p>Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre. </p>
+                                            </div>
+                                            <div class="col-sm-3">
+                                            <a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                              <p>Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre. </p>
+                                            </div>
+                                            <div class="col-sm-3">
+                                              <a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                              <p>Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre.</p></div>
+                                          
+                                        </div>
+                                        <!--/row-->
+                                    </div>
+                                    <!--/item-->
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                            <p>Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre. </p>
+                                            </div>
+                                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                            <p>Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre. </p>
+                                            </div>
+                                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                            <p>Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre. </p>
+                                            </div>
+                                            <div class="col-sm-3"><a href="#x" class="thumbnail"><img src="images/Capa27.jpg" alt="Image" class="img-responsive"></a>
+                                            <p>Evento: I Foro Internacional Aerópolis.
+                                              Lúgar: Rionegro, Antioquia.
+                                              Fecha: 17 y 18 de Noviembre. </p>
+                                            </div>
+                                        </div>
+                                        <!--/row-->
+                                    </div>
+                                    
+                                </div>
+                                <!--/carousel-inner--> <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+                
+                                <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+                            </div>
+                            <!--/myCarousel-->
+                        </div>
+                        <!--/well-->
+                  </div>
+                </div>
+				</p>
+			   
+              </section>
+              
+              <section id="sexta" class="wrapper style6">
+              <div class="container">
+				<div class="col-md-6">
+                	<div class="video">
+                  		<iframe width="560" height="315" src="https://www.youtube.com/embed/Ri6rp9KmNok" frameborder="0" allowfullscreen></iframe> 
+                    </div>                
+                </div>
+                
+                <div class="col-md-4">
+                
+                  	<div class="blanco">SECCIÓN DE VIDEOS</div>
+                    <div class="blanco2">En este video se muestra como los drones funcionan en medio de la ciudad.</div>
+                    <div class="blanco3"><a href="#"> Todos los videos >>></a></div>
+
+                
+                </div>
+                		
+                
+                </div>
+              </section>
+               
+			  <section id="one">  
+              
+              
+              <div class="imagenfondo">
+                      <a href="#"><img src="images/btn-conoce-portafolio.jpg">
+                      </a> 
+                  
+              	
+                </div>
+            
+              </section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; ABC Aeronáutico</li><li>Design: <a href="http://abcaeronautico.com"> ABC Aeronáutico</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
